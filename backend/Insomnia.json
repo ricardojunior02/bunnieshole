@@ -1,0 +1,182 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-04-15T22:25:09.817Z",
+  "__export_source": "insomnia.desktop.app:v2020.5.2",
+  "resources": [
+    {
+      "_id": "req_18c64aa755b04405b10e1f86110a8775",
+      "parentId": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "modified": 1618525194908,
+      "created": 1618414025565,
+      "url": "http://localhost:3333/delete/:_id",
+      "name": "Deletar product",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1618414025565,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "parentId": null,
+      "modified": 1618525306485,
+      "created": 1617206717719,
+      "name": "Bunnies Hole",
+      "description": "",
+      "scope": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_310fa1d314dd4f939884491f8b71c1d1",
+      "parentId": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "modified": 1618525452964,
+      "created": 1618412266359,
+      "url": "http://localhost:3333/update/:_id",
+      "name": "Update product",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Teste reload\",\n\t\"type\": \"image\",\n\t\"value\": 120.00,\n\t\"rating\": 8.9,\n\t\"thumbnail\": \"\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_5179355b47b340589df12b4b180ff4d9"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1618412266359,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_53bb074d338a4204b8381c905af1b057",
+      "parentId": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "modified": 1618525459982,
+      "created": 1618344175261,
+      "url": "http://localhost:3333/create",
+      "name": "Criar um product",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"name\": \"Teste\",\n\t\"type\": \"image\",\n\t\"value\": 120.00,\n\t\"rating\": 8.9,\n\t\"thumbnail\": \"\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_05d5fb3beed247678e074c38e4f41c61"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1618344175261,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_f25b8329fac247fd9a7218107fe20c47",
+      "parentId": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "modified": 1618525260990,
+      "created": 1617215738469,
+      "url": "http://localhost:3333/product",
+      "name": "Lista Products",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [
+        {
+          "name": "q",
+          "value": "audio",
+          "description": "",
+          "id": "pair_950f1d193e8b455ba90f7a2134a664dc",
+          "disabled": true
+        },
+        {
+          "name": "orderBy",
+          "value": "rating",
+          "description": "",
+          "id": "pair_e6b5169598e8475c8b5bd2b1a3789072",
+          "disabled": true
+        },
+        {
+          "name": "sortBy",
+          "value": "1",
+          "description": "",
+          "id": "pair_1d8e5f8a48a34bf69e00120b1d0af940",
+          "disabled": true
+        }
+      ],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1617215738469,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_564258d3b0ff28c0d613727829e6809250175adb",
+      "parentId": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "modified": 1617206717839,
+      "created": 1617206717839,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1617206717839,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_564258d3b0ff28c0d613727829e6809250175adb",
+      "parentId": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "modified": 1617206717841,
+      "created": 1617206717841,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_1a895a80ab804e668484556ce6409f89",
+      "parentId": "wrk_d44f55a8f1664155a7c34459466e228b",
+      "modified": 1617206717724,
+      "created": 1617206717724,
+      "fileName": "N64",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
