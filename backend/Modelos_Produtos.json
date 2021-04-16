@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "riofgyhu8945uy09guj345ghj3495h",
+    "name": "Eu passeando no parque",
+    "type": "video",
+    "value": 120.99,
+    "rating": 8.5,
+    "createdAt": "2020-06-03T20:49:55.572Z",
+    "thumbnail": ""
+  },
+  {
+    "_id": "giouh4tug34589g4h5g54gh8080gh48gh",
+    "name": "Andando de skate a tarde",
+    "type": "video",
+    "value": 12.0,
+    "rating": 9.8,
+    "createdAt": "2021-04-03T20:49:55.572Z",
+    "thumbnail": ""
+  },
+  {
+    "_id": "g3459-gh40gh059h3450g94df",
+    "name": "Meu jegue empacou",
+    "type": "image",
+    "value": 3.98,
+    "rating": 5.7,
+    "createdAt": "2018-04-31T20:49:55.572Z",
+    "thumbnail": ""
+  },
+  {
+    "_id": "35gy45y3844h580h8h3ru",
+    "name": "Solo de guitarra absurdo",
+    "type": "audio",
+    "value": 1.99,
+    "rating": 10,
+    "createdAt": "2020-06-03T22:49:55.572Z",
+    "thumbnail": ""
+  },
+  {
+    "_id": "gt904h5g0580gh48gh034h90h39gerhg",
+    "name": "Fazendo abdominais",
+    "type": "video",
+    "value": 12.99,
+    "rating": 8.6,
+    "createdAt": "2019-12-15T06:49:55.572Z",
+    "thumbnail": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/space-galaxy-universe-youtube-thumbnail-design-template-8939436128100bfd5a0b427f5cba98de_screen.jpg?ts=1600840534"
+  },
+  {
+    "_id": "4hi0g560hg4hg90-34045h0g45g5g4",
+    "name": "Como tocar cuica",
+    "type": "audio",
+    "value": 37.55,
+    "rating": 7.7,
+    "createdAt": "2020-06-03T20:49:55.572Z",
+    "thumbnail": ""
+  },
+  {
+    "_id": "490gujh045g8904hg904h590gh459gyh",
+    "name": "Canto lirico 3",
+    "type": "audio",
+    "value": 22.0,
+    "rating": 8.6,
+    "createdAt": "2020-06-03T22:12:57.572Z",
+    "thumbnail": "https://exploreoquepuder.files.wordpress.com/2016/01/youtube-iconsbkgd-fade-1920.jpg?w=1200"
+  },
+  {
+    "_id": "g45890gy450gyh4yg04ug0495045gu",
+    "name": "Fotos do canyon",
+    "type": "image",
+    "value": 300.0,
+    "rating": 9.5,
+    "createdAt": "2020-06-03T20:49:55.572Z",
+    "thumbnail": "https://s3.amazonaws.com/kp-blog/wp-content/uploads/2018/07/03165544/Thumbnail-Youtube-o-que-%C3%A9-8-dicas-de-como-fazer-e-principais-ferramentas.jpg"
+  }
+]
